@@ -5,4 +5,5 @@
     <string name="not_used">New Car</string>
     <string name="error_getting_data">Error getting data!</string>
     <string name="no_net">No internet!</string>
+    <string name="app_name">Cars List</string>
 </resources>

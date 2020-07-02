@@ -43,6 +43,12 @@ public class CarsListAdapter extends RecyclerView.Adapter<CarsListAdapter.CarsLi
             return carsItems.size();
     }
 
+    public void updateItems(ArrayList<Car> cars) {
+        carsItems.clear();
+        carsItems.addAll(cars);
+        notifyDataSetChanged();
+    }
+
     static class CarsListViewHolder extends RecyclerView.ViewHolder {
         ItemCarBinding binding;
 
